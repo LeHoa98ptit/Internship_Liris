@@ -1,0 +1,138 @@
+﻿[
+  {
+    "StartLabels": [
+      "Tweet"
+    ],
+    "RelationshipType": "CONTAINS",
+    "EndLabels": [
+      "Link"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "Tweet"
+    ],
+    "RelationshipType": "MENTIONS",
+    "EndLabels": [
+      "User"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "Tweet"
+    ],
+    "RelationshipType": "MENTIONS",
+    "EndLabels": [
+      "User",
+      "Me"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "Tweet"
+    ],
+    "RelationshipType": "REPLY_TO",
+    "EndLabels": [
+      "Tweet"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "Tweet"
+    ],
+    "RelationshipType": "RETWEETS",
+    "EndLabels": [
+      "Tweet"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "Tweet"
+    ],
+    "RelationshipType": "TAGS",
+    "EndLabels": [
+      "Hashtag"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "Tweet"
+    ],
+    "RelationshipType": "USING",
+    "EndLabels": [
+      "Source"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "User"
+    ],
+    "RelationshipType": "FOLLOWS",
+    "EndLabels": [
+      "User",
+      "Me"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "User"
+    ],
+    "RelationshipType": "POSTS",
+    "EndLabels": [
+      "Tweet"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "User",
+      "Me"
+    ],
+    "RelationshipType": "FOLLOWS",
+    "EndLabels": [
+      "User"
+    ],
+    "RelationshipProperties": {
+
+    }
+  },
+  {
+    "StartLabels": [
+      "User",
+      "Me"
+    ],
+    "RelationshipType": "POSTS",
+    "EndLabels": [
+      "Tweet"
+    ],
+    "RelationshipProperties": {
+
+    }
+  }
+]
