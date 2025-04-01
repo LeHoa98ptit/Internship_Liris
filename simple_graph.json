@@ -1,0 +1,54 @@
+{
+    "nodes": [
+        {
+            "id": "1",
+            "label": "Person",
+            "properties": {
+                "name": "Alice",
+                "age": 30
+            }
+        },
+        {
+            "id": "2",
+            "label": "Person",
+            "properties": {
+                "name": "Bob",
+                "age": 25
+            }
+        },
+        {
+            "id": "3",
+            "label": "Company",
+            "properties": {
+                "name": "Acme Corp",
+                "industry": "Tech"
+            }
+        }
+    ],
+    "edges": [
+        {
+            "start": "1",
+            "end": "2",
+            "label": "KNOWS",
+            "properties": {
+                "since": 2010
+            }
+        },
+        {
+            "start": "1",
+            "end": "3",
+            "label": "WORKS_AT",
+            "properties": {
+                "role": "Engineer"
+            }
+        },
+        {
+            "start": "2",
+            "end": "3",
+            "label": "WORKS_AT",
+            "properties": {
+                "role": "Designer"
+            }
+        }
+    ]
+}
